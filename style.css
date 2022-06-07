@@ -10,7 +10,6 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px)  {
 
 body::-webkit-scrollbar {
     width: 7px;
@@ -61,7 +60,7 @@ body::-webkit-scrollbar {
     margin-top: 10vh;
 }
 
-}
+
 
  /* 
     ##Device = Laptops, Desktops
