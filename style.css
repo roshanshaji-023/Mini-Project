@@ -39,12 +39,14 @@ body::-webkit-scrollbar {
 #img-main{
     height: 60vh;
     width: auto;
+    margin-left: 55px;
 }
 .main-right{
     margin-top: 15vh;
     width: 50%;
 }
 .main-right h1{
+    font-size: 35px;
     text-align: right;
-    margin-right: 25px;
+    margin-right: 55px;
 }
