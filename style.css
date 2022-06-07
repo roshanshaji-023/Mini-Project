@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
     text-align: right;
     margin-right: 95px;
 }
-.info p{
+#info{
     margin-top: 10vh;
     text-align: right;
     margin-right: 95px;
