@@ -80,7 +80,7 @@ a{
 .Userlink a{
     color: black;
     padding: 15px 35px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #53fe6c;
 }
 
@@ -129,19 +129,143 @@ a{
         text-decoration: none;
         margin: 25vh auto;
         justify-content: space-around;
-        font-size: 15px;
+        font-size: 12px;
     }
     .guestlink a{
         color: #ffffff;
-        padding: 15px 35px;
+        padding: 10px 15px;
         border-radius: 15px;
         background-color: #736e9e;
     }
     .Userlink a{
         color: black;
-        padding: 15px 35px;
-        border-radius: 20px;
+        padding: 10px 15px;
+        border-radius: 15px;
         background-color: #53fe6c;
     }
+    
+  }
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main{
+        display: flex;
+        justify-content:space-between;
+        
+        height: auto;
+    }
+    .main-left{
+        margin-top: 15vh;
+        width: 40%;
+    }
+    #img-main{
+        height:50vh;
+        width: 300px;
+        margin-left: 15px;
+    }
+    .main-right{
+        margin-top: 15vh;
+        width: 60%;
+    }
+    .main-right h1{
+        font-size: 25px;
+        text-align: right;
+        margin-right: 25px;
+    }
+    #info{
+        margin-top: 10vh;
+        text-align: right;
+        margin-right: 25px;
+        font-size: 12px;
+    }
+    .links{
+        display: flex;
+        width: 80%;
+        height:auto;
+        color: black;
+        text-decoration: none;
+        margin: 25vh auto;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+    .guestlink a{
+        color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: #736e9e;
+    }
+    .Userlink a{
+        color: black;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: #53fe6c;
+    }
+    
+  }
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .main{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        flex-wrap:wrap;
+       
+    }
+    .main-left{
+        margin-top:0vh;
+        width: 100%;
+    }
+    #img-main{
+        height: 60vh;
+        width:100%;
+        margin-left: 0px;
+    }
+    .main-right{
+        margin-top: 2vh;
+        width: 100%;
+    }
+    .main-right h1{
+        font-size: 30px;
+        text-align: center;
+        margin-right: 0px;
+    }
+    #info{
+        margin: 10vh auto;
+        text-align: center;
+        
+        font-size: 14px;
+        width: 88%;
+    }
+    .links{
+        display: flex;
+        width: 80%;
+        height:auto;
+        color: black;
+        text-decoration: none;
+        margin: 5vh auto;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+    .guestlink a{
+        color: #ffffff;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: #736e9e;
+    }
+    .Userlink a{
+        color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #53fe6c;
+    }
+  
     
   }
