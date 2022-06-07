@@ -44,3 +44,7 @@ body::-webkit-scrollbar {
     margin-top: 15vh;
     width: 50%;
 }
+.main-right h1{
+    text-align: right;
+    margin-right: 25px;
+}
