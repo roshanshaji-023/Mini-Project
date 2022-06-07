@@ -48,5 +48,30 @@ body::-webkit-scrollbar {
 .main-right h1{
     font-size: 35px;
     text-align: right;
-    margin-right: 55px;
+    margin-right: 95px;
+}
+.links{
+    display: flex;
+    width: 80%;
+    height:auto;
+    color: black;
+    text-decoration: none;
+    margin: 35vh auto;
+    justify-content: space-around;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.guestlink{
+   
+    padding: 15px 40px;
+    border-radius: 15px;
+    background-color: #f7ff18;
+}
+.Userlink{
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: #4234ff;
 }
