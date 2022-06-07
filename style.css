@@ -55,8 +55,7 @@ body::-webkit-scrollbar {
 }
 .main-right h1{
     font-size:35px;
-    text-align: right;
-    margin-right:30px;
+   text-align:center ;
     margin-top: 10vh;
 }
 
@@ -88,13 +87,39 @@ body::-webkit-scrollbar {
     }
     .main-right h1{
         font-size: 35px;
-        text-align: right;
-        margin-right: 30px;
+        text-align:center ;
         margin-top:10vh;
     }
 
 }
 
+
+@media (max-width: 1920px) and (max-height: 1080px) {
+    
+    /* CSS */
+
+    .main{
+        min-height: 90vh;
+        display: flex;
+    }
+    
+    .main-left{
+        margin-top: 15vh;
+        width: 50%;
+        min-height: 60vh;
+         
+    }
+    .main-left img{
+        height: 60vh;
+        width: auto;
+    }
+    .main-right h1{
+        font-size: 35px;
+        text-align:center ;
+        margin-top:10vh;
+    }
+
+}
   
   /* 
     ##Device = Tablets, Ipads (portrait)
@@ -120,8 +145,7 @@ body::-webkit-scrollbar {
     }
     .main-right h1{
         font-size: 35px;
-        text-align: right;
-        margin-right: 30px;
+        text-align:center ;
         margin-top:10vh;
     }
     
@@ -151,8 +175,7 @@ body::-webkit-scrollbar {
     }
     .main-right h1{
         font-size: 35px;
-        text-align: right;
-        margin-right: 30px;
+        text-align:center;
         margin-top:10vh;
     }
     
