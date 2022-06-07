@@ -52,9 +52,9 @@ body::-webkit-scrollbar {
 }
 .main-right h1{
     font-size:35px;
-    text-align: center;
-    margin-right: 20px;
-    margin-top: 25px;
+    text-align: right;
+    margin-right:30px;
+    margin-top: 10vh;
 }
 
 }
@@ -83,10 +83,9 @@ body::-webkit-scrollbar {
     }
     .main-right h1{
         font-size: 35px;
-        text-align: center;
-        
-        margin-right: 20px;
-        margin-top:15vh;
+        text-align: right;
+        margin-right: 30px;
+        margin-top:10vh;
     }
 
 }
