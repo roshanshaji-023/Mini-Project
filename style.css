@@ -66,7 +66,7 @@ body::-webkit-scrollbar {
     ##Screen = B/w 1025px to 1280px
 */
   
-@media  (min-width: 1920px) {
+@media (min-width: 1080px) and (max-width: 1920px) {
 
     .main{
         min-height: 90vh;
