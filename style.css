@@ -69,15 +69,16 @@ body::-webkit-scrollbar {
 }
 a{
     text-decoration: none;
-    color: black;
+    
 }
 .guestlink a{
-   
+    color: #ffffff;
     padding: 15px 35px;
     border-radius: 15px;
-    background-color: #f7ff18;
+    background-color: #736e9e;
 }
 .Userlink a{
+    color: black;
     padding: 15px 35px;
     border-radius: 20px;
     background-color: #53fe6c;
