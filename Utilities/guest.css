@@ -44,12 +44,12 @@ body::-webkit-scrollbar {
     color: #ffffff;
 }
 .main{
-    min-height: 80vh;
+    min-height: 85vh;
     height: auto;
     
 }
 .sample{
-    width: 85%;
+    width: 80%;
     margin: auto;
     min-height: 70vh;
     display: flex;
@@ -73,7 +73,7 @@ a{
     font-weight: bold;
     background-color: rgb(255, 232, 255);
 }
-.bmi img{
+#draw{
     height:27vh;
     width:100%;
 }
@@ -81,4 +81,29 @@ a{
     padding: 5px 55px;
     background-color: rgb(255, 125, 255);
     border-radius: 5px;
+}
+.bodyfat{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(237, 255, 232);
+}
+.bodyfat a{
+    padding: 4px 35px;
+    margin: 5vh auto;
+    text-align: center;
+    background-color: rgb(141, 249, 111);
+    border-radius: 5px;
+}
+.bmr{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(251, 255, 196);
+}
+.bmr a{
+    padding: 5px 55px;
+    background-color: rgb(239, 255, 20);
+    border-radius: 5px;
+}
+.prompt{
+    text-align: center;
 }
