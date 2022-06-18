@@ -5,6 +5,22 @@
     font-family: 'Roboto';
     
 }
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+     background:  rgb(238, 255, 228);
+     border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+     background: #ffffff; 
+}
 
 .Header{
     height: 25vh;
@@ -26,4 +42,28 @@
     text-align: center;
     margin:auto;
     color: #ffffff;
+}
+.main{
+    min-height: 80vh;
+    height: auto;
+    
+}
+.sample{
+    width: 85%;
+    margin: auto;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.sample>div{
+    height: 35vh;
+    width:16%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(227, 254, 229);
+}
+.bmi{
+    
 }
