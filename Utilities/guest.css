@@ -12,7 +12,7 @@
 
 
 body::-webkit-scrollbar {
-    width: 7px;
+    width: 1px;
 }
 ::-webkit-scrollbar-thumb {
      background:  rgb(238, 255, 228);
@@ -79,6 +79,6 @@ a{
 }
 .bmi a{
     padding: 5px 55px;
-    background-color: rgb(241, 90, 241);
+    background-color: rgb(255, 125, 255);
     border-radius: 5px;
 }
