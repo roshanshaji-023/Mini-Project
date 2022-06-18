@@ -62,8 +62,23 @@ body::-webkit-scrollbar {
     width:16%;
     margin: auto;
     border-radius: 5px;
-    background-color: rgb(227, 254, 229);
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .bmi{
-    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 232, 255);
+}
+.bmi img{
+    height:27vh;
+    width:100%;
+}
+.bmi a{
+    padding: 5px 55px;
+    background-color: rgb(241, 90, 241);
+    border-radius: 5px;
 }
