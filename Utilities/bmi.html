@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Human Body Health Status</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <section class="header">
+        <div class="nav">
+            <h3>Calculate Your BMI  </h3>
+
+        </div>
+
+    </section>
+    <section class="desc">
+        <h4>BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is widely used as a general indicator of whether a person has a healthy body weight for their height.</h4>
+    </section>
+    <section class="bmicalc">
+        <div class="calc">
+            <br><br>
+            <h5>Enter Your Age(2-120) &nbsp;<input id="age" ></h5><br>
+            <h5>Enter Your Weight(kg) &nbsp;<input id="weight" ></h5><br>
+            <h5>Enter Your Height(cm) &nbsp;<input id="height" ></h5><br><br>
+            <button onclick="bmi()">Calculate</button> <br><br>
+            <h5>Your BMI is <input id="ans"></h5>
+
+        </div>
+    </section>
+</body>
+<script>
+    function bmi()
+    {
+        var weight,height,h,bmii;
+        weight=parseFloat(document.getElementById("weight").value);
+        h=parseFloat(document.getElementById("height").value);
+        height=h/100;
+        bmii=weight/(height*height);
+        document.getElementById("ans").value=bmii;
+
+    }
+</script>
+</html>
