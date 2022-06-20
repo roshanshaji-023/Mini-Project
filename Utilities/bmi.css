@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 .header{
     display: flex;
     height: 25vh;
-    background:url("images/guestbanner.png");
+    background:url("Images/guestbanner.png");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
