@@ -114,8 +114,154 @@ a{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .Header{
+        height: 25vh;
+        display: flex;
+        background: url("Images/guestbanner.png");
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .nav{
+        display: flex;
+        height: 8vh;
+        width: 98%;
+        margin:auto;
+        border-radius: 5px;
+        background-color: #736e9e2e;
+    }
+    .nav h3{
+        text-align: center;
+        margin:auto;
+        color: #ffffff;
+    }
+    .main{
+        min-height: 85vh;
+        height: auto;
+        
+    }
+    .sample{
+        width: 90%;
+        margin: auto;
+        min-height: 70vh;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+    }
+    .sample>div{
+        height: 30vh;
+        width:30%;
+        margin: auto;
+        border-radius: 5px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .bmi{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(255, 232, 255);
+    }
+    #draw{
+        height:25vh;
+        width:100%;
+    }
+    .bmi a{
+        padding: 5px 55px;
+        background-color: rgb(255, 125, 255);
+        border-radius: 5px;
+    }
+    .bodyfat{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(237, 255, 232);
+    }
+    .bodyfat a{
+        padding: 4px 35px;
+        margin: 5vh auto;
+        text-align: center;
+        background-color: rgb(141, 249, 111);
+        border-radius: 5px;
+    }
+    .bmr{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(251, 255, 196);
+    }
+    .bmr a{
+        padding: 5px 55px;
+        background-color: rgb(239, 255, 20);
+        border-radius: 5px;
+    }
+    .prompt{
+        text-align: center;
+    }
+    
 
 }
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+  
+    .sample>div{
+        height: 35vh;
+        width:20%;
+        margin: auto;
+        border-radius: 5px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .bmi{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(255, 232, 255);
+    }
+    #draw{
+        height:27vh;
+        width:100%;
+    }
+    .bmi a{
+        padding: 5px 55px;
+        background-color: rgb(255, 125, 255);
+        border-radius: 5px;
+    }
+    .bodyfat{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(237, 255, 232);
+    }
+    .bodyfat a{
+        padding: 4px 35px;
+        margin: 5vh auto;
+        text-align: center;
+        background-color: rgb(141, 249, 111);
+        border-radius: 5px;
+    }
+    .bmr{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(251, 255, 196);
+    }
+    .bmr a{
+        padding: 5px 55px;
+        background-color: rgb(239, 255, 20);
+        border-radius: 5px;
+    }
+    .prompt{
+        text-align: center;
+    }
+    
+  }
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -123,7 +269,92 @@ a{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+    .Header{
+        height: 25vh;
+        display: flex;
+        background: url("Images/guestbanner.png");
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .nav{
+        display: flex;
+        height: 8vh;
+        width: 98%;
+        margin:auto;
+        border-radius: 5px;
+        background-color: #736e9e2e;
+    }
+    .nav h3{
+        text-align: center;
+        margin:auto;
+        color: #ffffff;
+    }
+    .main{
+        min-height: 85vh;
+        height: auto;
+        
+    }
+    .sample{
+        width: 80%;
+        margin: auto;
+        min-height: 70vh;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+    }
+    .sample>div{
+        height: 35vh;
+        width:16%;
+        margin: auto;
+        border-radius: 5px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .bmi{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(255, 232, 255);
+    }
+    #draw{
+        height:27vh;
+        width:100%;
+    }
+    .bmi a{
+        padding: 5px 55px;
+        background-color: rgb(255, 125, 255);
+        border-radius: 5px;
+    }
+    .bodyfat{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(237, 255, 232);
+    }
+    .bodyfat a{
+        padding: 4px 35px;
+        margin: 5vh auto;
+        text-align: center;
+        background-color: rgb(141, 249, 111);
+        border-radius: 5px;
+    }
+    .bmr{
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(251, 255, 196);
+    }
+    .bmr a{
+        padding: 5px 55px;
+        background-color: rgb(239, 255, 20);
+        border-radius: 5px;
+    }
+    .prompt{
+        text-align: center;
+    }
+    
 }
 
  /* 
