@@ -41,6 +41,7 @@
         h=parseFloat(document.getElementById("height").value);
         height=h/100;
         bmii=weight/(height*height);
+        bmii=bmii.toFixed(2);
         document.getElementById("ans").value=bmii;
 
     }
