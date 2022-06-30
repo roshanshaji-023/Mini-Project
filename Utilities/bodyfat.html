@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Fat-Human Body Health Status</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bodyfat.css">
+</head>
+<body>
+    <section class="header">
+        <div class="nav">
+            <h3>Calculate Your Body fat  </h3>
+
+        </div>
+
+    </section>
+    <section class="desc">
+        <h4>There are many specific techniques used for measuring body fat. The calculator above uses a method involving equations developed at the Naval Health Research Center by Hodgdon and Beckett in 1984. For women only: Measure the circumference of the subject's hips at the largest horizontal measure.</h4>
+    </section>
+    <section class="bmicalc">
+        <div class="calc">
+            <br><br>
+            
+            <h5>Your Age(15-80) &nbsp;<input id="age" ></h5><br>
+            <h5>Your Weight(kg) &nbsp;<input id="weight" ></h5><br>
+            <h5>Your Height(cm) &nbsp;<input id="height" ></h5><br>
+            <h5>Neck Size in cm &nbsp;<input id="neck" ></h5><br>
+            <h5>Waist Size  (cm)&nbsp;<input id="waist" ></h5><br>
+            <h5>Hip (women)(cm)&nbsp;<input id="hip" ></h5><br>
+            <h5>Choose Your Gender: &nbsp; &nbsp;</h5><br>
+            <div class="gender"></div>
+            <h5><input type="radio" id="male" name="gender" value="male"> Male<br></h5><br>
+            <h5>&nbsp;&nbsp;<input type="radio" id="female" name="gender" value="female">Female<br></h5>
+            <br>
+            
+            <button onclick="bodyfat()">Calculate</button> <br><br>
+            <h5>Your Body Fat % is <input id="ans"></h5><br>
+
+        </div>
+        
+    </section>
+   
+</body>
+<script>
+    function bodyfat()
+    {
+        var weight,Age,hip,height,fat,waist,neck;
+        weight=parseFloat(document.getElementById("weight").value);
+        height=parseFloat(document.getElementById("height").value);
+        Age=parseFloat(document.getElementById("age").value);
+        hip=parseFloat(document.getElementById("hip").value);
+        waist=parseFloat(document.getElementById("waist").value);
+        neck=parseFloat(document.getElementById("neck").value);
+        if(document.getElementById('male').checked == true) {   
+            fat = (495/(1.0324 - 0.19077*Math.log10(waist-neck) + 0.15456*Math.log10(height)))-450;   
+        } else {  
+            fat= (495/(1.29579 - 0.35004*Math.log10(waist+hip-neck) + 0.22100*Math.log10(height)))-450;
+        } 
+       
+        fat=fat.toFixed(2);
+        document.getElementById("ans").value=fat;
+
+    }
+</script>
+</html>
