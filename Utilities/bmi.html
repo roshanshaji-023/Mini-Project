@@ -32,6 +32,50 @@
 
         </div>
     </section>
+   
+    <section class="bmitable">
+        <div class="desc">
+        <h5>This is the World Health Organization's (WHO) recommended body weight based on BMI values for adults. It is used for both men and women, age 18 or older.</h5>
+        </div>
+        <table id="btable">
+            <tr>
+                <th>Category</th>
+                <th>Bmi Range</th>
+            </tr>
+            <tr>
+                <td>Severe Thinness	</td>
+                <td><h5> &#60;16</h5></td>
+            </tr>
+            <tr>
+                <td>Moderate Thinness</td>
+                <td><h5>16 - 17</h5></td>
+            </tr>
+            <tr>
+                <td>Mild Thinness</td>
+                <td><h5> 17 - 18.5</h5></td>
+            </tr>
+            <tr>
+                <td>Normal	</td>
+                <td><h5> 18.5 - 25</h5></td>
+            </tr>
+            <tr>
+                <td>Overweight	</td>
+                <td><h5> 25 - 30</h5></td>
+            </tr>
+            <tr>
+                <td>Obese Class I</td>
+                <td><h5> 30- 35</h5></td>
+            </tr>
+            <tr>
+                <td>Obese Class II</td>
+                <td><h5> 35 - 40</h5></td>
+            </tr>
+            <tr>
+                <td>Obese Class II</td>
+                <td><h5>&#62; 40 </h5></td>
+            </tr>
+        </table>
+    </section>
 </body>
 <script>
     function bmi()
@@ -43,6 +87,8 @@
         bmii=weight/(height*height);
         bmii=bmii.toFixed(2);
         document.getElementById("ans").value=bmii;
+
+       
 
     }
 </script>
