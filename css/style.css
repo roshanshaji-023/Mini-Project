@@ -1,0 +1,79 @@
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 60vh;
+	height: auto;
+}
+#hello{
+	height: 50vh;
+}
+.items{
+	min-height: 100vh;
+	background-color: rgb(255, 255, 245);
+}
+
+.main{
+    min-height: 85vh;
+    height: auto;
+    text-align: center;
+}
+.sample{
+    width: 80%;
+    margin: auto;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.sample>div{
+    height: 35vh;
+    width:16%;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+	color: black;
+}
+.bmi{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 232, 255);
+}
+#draw{
+    height:27vh;
+    width:100%;
+}
+.bmi a{
+    padding: 5px 55px;
+    background-color: rgb(255, 125, 255);
+    border-radius: 5px;
+}
+.bodyfat{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(237, 255, 232);
+}
+.bodyfat a{
+    padding: 4px 35px;
+    margin: 5vh auto;
+    text-align: center;
+    background-color: rgb(141, 249, 111);
+    border-radius: 5px;
+}
+.bmr{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(251, 255, 196);
+}
+.bmr a{
+    padding: 5px 55px;
+    background-color: rgb(239, 255, 20);
+    border-radius: 5px;
+}
