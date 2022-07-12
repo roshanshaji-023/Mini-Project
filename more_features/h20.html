@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bone Mass-Human Body Health Status</title>
+    <title>H20 to Drink-Human Body Health Status</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -13,25 +13,25 @@
 <body>
     <section class="header">
         <div class="nav">
-            <h3>Calculate Your Bone Mass  </h3>
+            <h3>Calculate Amount of H2O to Drink each Day</h3>
 
         </div>
 
     </section>
     <section class="desc">
-        <h4>Whether you are attempting to lose weight or monitor your current bone and muscle density, the numbers shown on the scale can be misleading. While you may want to focus on the numbers of the scale, it is more important to calculate how much of your weight is unwanted fat vs. muscle and bone mass. Although it may seem you are gaining weight when you work out, calculating your muscle and bone mass can help you better determine your progress when losing unwanted pounds.</h4>
+        <h4>Human body is made up of almost 60%-70% water.Beverages like Tea, Coffee and all alcoholic drinks are all dehydrating fluids and will eliminate water from your body. So if you are thirsty make sure you are not drinking any dehydrating fluid.Drinking enough water helps you to lose weight because without water the body can't metabolize fat adequately.22%-30% loss of total body water can lead to coma and death!</h4>
     </section>
     <section class="bmicalc">
         <div class="calc">
             <br><br>
-            
+            <br>
             <h5>Enter Your Weight(kg) &nbsp;<input id="weight" ></h5><br>
             <br>
             
             <button onclick="meta()">Calculate</button> <br><br><br>
-            <h5>Your Bone Mass is <input id="ans"></h5><br>
+            <p id="water"></p>
             <br>
-            <p id="pound"></p>
+            
 
         </div>
         
@@ -41,13 +41,11 @@
 <script>
     function meta()
     {
-        var weight,pound,mass;
+        var weight,water,mass;
         weight=parseFloat(document.getElementById("weight").value);
-        pound=weight*2.205;
-        document.getElementById("pound").innerHTML="Your Weight in Pounds is:"+pound.toFixed(2);
-        mass=pound*0.15;
-        mass=mass.toFixed(2);
-        document.getElementById("ans").value=mass;
+        water=weight*0.033
+        document.getElementById("water").innerHTML="Amount of Water to be Drink is Minimum of "+water.toFixed(2)+"L per Day";
+       
        
         
         

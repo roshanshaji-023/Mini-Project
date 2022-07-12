@@ -28,7 +28,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
 		<h3>Choose from below:</h3>
 	
         <div class="sample">
-		<div class="meta">
+            <div class="meta">
               <img id="draw" src="Utilities/Images/undraw_workout_gcgu.svg" alt="">
                 <a href="more_features/bonemass.html">Bone Mass</a>
             </div>
@@ -43,6 +43,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
             <div class="bmr">
                 <img id="draw" src="Utilities/Images/undraw_fitness_stats_sht6.svg" alt="">
                 <a href="Utilities/bmr.html">BMR</a>
+            </div>
+            <div class="water">
+              <img id="draw" src="Utilities/Images/undraw_coffee.svg" alt="">
+                <a href="more_features/h20.html">H2O to Drink</a>
             </div>
 
         </div>

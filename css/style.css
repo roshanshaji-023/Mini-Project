@@ -40,17 +40,19 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 .sample{
-    width: 80%;
+    width: 85%;
     margin: auto;
     min-height: 70vh;
+    height: max-content;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     
 }
 .sample>div{
     height: 35vh;
-    width:16%;
+    width:18%;
     margin: auto;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -111,5 +113,17 @@ a:hover{
 .bmr a{
     padding: 5px 55px;
     background-color: rgb(239, 255, 20);
+    border-radius: 5px;
+}
+.water{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+.water a{
+    padding: 4px 35px;
+    margin: 5vh auto;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
     border-radius: 5px;
 }
