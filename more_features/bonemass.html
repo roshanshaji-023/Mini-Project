@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bone Mass-Human Body Health Status</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bonemass.css">
+</head>
+<body>
+    <section class="header">
+        <div class="nav">
+            <h3>Calculate Your Bone Mass  </h3>
+
+        </div>
+
+    </section>
+    <section class="desc">
+        <h4>Whether you are attempting to lose weight or monitor your current bone and muscle density, the numbers shown on the scale can be misleading. While you may want to focus on the numbers of the scale, it is more important to calculate how much of your weight is unwanted fat vs. muscle and bone mass. Although it may seem you are gaining weight when you work out, calculating your muscle and bone mass can help you better determine your progress when losing unwanted pounds.</h4>
+    </section>
+    <section class="bmicalc">
+        <div class="calc">
+            <br><br>
+            
+            <h5>Enter Your Weight(kg) &nbsp;<input id="weight" ></h5><br>
+            <br>
+            
+            <button onclick="meta()">Calculate</button> <br><br><br>
+            <h5>Your Bone Mass is <input id="ans"></h5><br>
+            <br>
+            <p id="pound"></p>
+
+        </div>
+        
+    </section>
+   
+</body>
+<script>
+    function meta()
+    {
+        var weight,pound,mass;
+        weight=parseFloat(document.getElementById("weight").value);
+        pound=weight*2.205;
+        document.getElementById("pound").innerHTML="Your Weight in Pounds is:"+pound.toFixed(2);
+        mass=pound*0.15;
+        mass=mass.toFixed(2);
+        document.getElementById("ans").value=mass;
+       
+        
+        
+    }
+</script>
+</html>

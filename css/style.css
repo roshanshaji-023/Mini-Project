@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+     background:  rgb(238, 255, 228);
+     border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+     background: #ffffff; 
+}
+
 .w-450 {
 	width: 450px;
 }
@@ -32,14 +53,29 @@
     width:16%;
     margin: auto;
     border-radius: 5px;
-    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+
+
 a{
     text-decoration: none;
     color: black;
 }
 a:hover{
 	color: black;
+}
+.meta{
+    text-align: center;
+    font-weight: bold;
+    background-color: #fdcedf;
+}
+.meta a{
+    padding: 4px 27px;
+    margin: 5vh auto;
+    text-align: center;
+    background-color: #fa2670;
+    border-radius: 5px;
 }
 .bmi{
     text-align: center;
