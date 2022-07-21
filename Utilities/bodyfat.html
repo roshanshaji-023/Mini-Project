@@ -58,6 +58,12 @@
         if(document.getElementById('male').checked == true) {   
             fat = (495/(1.0324 - 0.19077*Math.log10(waist-neck) + 0.15456*Math.log10(height)))-450;   
         } else {  
+            var empt = document.getElementById("hip").value;
+            if (empt == "")
+                {
+                    alert("Please input Hip Value");
+                    return false;
+                }
             fat= (495/(1.29579 - 0.35004*Math.log10(waist+hip-neck) + 0.22100*Math.log10(height)))-450;
         } 
        
