@@ -127,3 +127,30 @@ a:hover{
     background-color: rgb(194, 194, 194);
     border-radius: 5px;
 }
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .sample{
+        width: 85%;
+        margin: auto;
+        min-height: 100vh;
+        height: max-content;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        
+    }
+    .sample>div{
+        height: 33vh;
+        width: 70%;
+        margin: 15px auto;
+        border-radius: 5px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    }
+
+}
