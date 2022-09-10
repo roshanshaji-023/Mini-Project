@@ -3,12 +3,6 @@
 a web-app that can provide the health status of a human body according to certain inputs and to suggest some exercises that can improve the current scenario of His/Her Physical Health.
 
 
-INPUTS REQUIRED
-	
-a.Height
-b.Weight
-c.Age
-d.Gender
 
 
 EXPECTED OUTCOMES
