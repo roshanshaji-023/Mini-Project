@@ -1,19 +1,26 @@
-# Login & Registration Form In PHP And MySQL 2022
 
-version: 1.0.0
 
-## TECHNOLOGIES
+a web-app that can provide the health status of a human body according to certain inputs and to suggest some exercises that can improve the current scenario of His/Her Physical Health.
 
-1. PHP
-1. MYSQL
-1. BOOTSTRAP 5
-1. HTML
-1. CSS
 
-## Full Tutorial
+INPUTS REQUIRED
+	
+a.Height
+b.Weight
+c.Age
+d.Gender
 
-[On Youtube](https://youtu.be/R7lFjX5kcYY)
 
-## Authors
+EXPECTED OUTCOMES
 
-[Elias Abdurrahman](https://github.com/codingWithElias)
+a.Body Mass Ratio
+b.Amount of Water Content in Body
+c.Approximate Muscle Strength
+d.Approximate Fat present including Visceral Fat
+e.Metabolic Age	
+f.BMR
+g.Exercises to be performed to improve health status
+
+
+	
+
